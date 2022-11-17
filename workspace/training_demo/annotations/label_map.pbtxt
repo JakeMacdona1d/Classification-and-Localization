@@ -7,3 +7,8 @@ item {
     id: 2
     name: 'Ibuprofen 200 MG Oral Tablet'
 }
+
+item {
+    id: 3
+    name: 'buff'
+}
