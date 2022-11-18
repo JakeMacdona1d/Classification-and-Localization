@@ -1,0 +1,3 @@
+python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\workspace\training_demo\images\train -l D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\train.record
+
+python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\workspace\training_demo\images\test -l D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\test.record
