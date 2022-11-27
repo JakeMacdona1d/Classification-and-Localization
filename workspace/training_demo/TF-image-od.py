@@ -20,10 +20,9 @@ parser.add_argument('--model', help='Folder that the Saved Model is Located In',
 parser.add_argument('--labels', help='Where the Labelmap is Located',
                     default='exported-models/my_mobilenet_model/saved_model/label_map.pbtxt')
 parser.add_argument('--image', help='Name of the single image to perform detection on',
-                    default='images/test/i-3e7d87c0bc154f93a8d939439277fafc.jpg')
+                    default='images/test/IMG_2911.jpg')
 parser.add_argument('--threshold', help='Minimum confidence threshold for displaying detected objects',
-                    default=0.1)
-                    
+                    default=0.01)
 args = parser.parse_args()
 # Enable GPU dynamic memory allocation
 gpus = tf.config.experimental.list_physical_devices('GPU')

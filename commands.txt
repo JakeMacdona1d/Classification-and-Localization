@@ -2,4 +2,9 @@ python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\workspa
 
 python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\workspace\training_demo\images\test -l D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\test.record
 
+python model_main_tf2.py --model_dir=models\my_ssd_mobilenet_v2_fpnlite --pipeline_config_path=models\my_ssd_mobilenet_v2_fpnlite\pipeline.config
+
+export:
+python .\exporter_main_v2.py --input_type image_tensor --pipeline_config_path .\models\my_ssd_mobilenet_v2_fpnlite\pipeline.config --trained_checkpoint_dir .\models\my_ssd_mobilenet_v2_fpnlite\ --output_directory .\exported-models\my_mobilenet_model
+
 https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal
