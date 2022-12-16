@@ -1,6 +1,6 @@
-python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\workspace\training_demo\images\train -l D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\train.record
+python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\training\images\train -l D:\GitHub\Classification-and-Localization\training\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\training\annotations\train.record
 
-python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\workspace\training_demo\images\test -l D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\workspace\training_demo\annotations\test.record
+python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\training\images\test -l D:\GitHub\Classification-and-Localization\training\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\training\annotations\test.record
 
 python model_main_tf2.py --model_dir=models\my_ssd_mobilenet_v2_fpnlite --pipeline_config_path=models\my_ssd_mobilenet_v2_fpnlite\pipeline.config
 
