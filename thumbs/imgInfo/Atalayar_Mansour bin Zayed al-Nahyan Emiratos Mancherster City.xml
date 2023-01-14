@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Atalayar_Mansour bin Zayed al-Nahyan Emiratos Mancherster City.jpg</filename>
+	<path>D:\GitHub\Classification-and-Localization\thumbs\images\Atalayar_Mansour bin Zayed al-Nahyan Emiratos Mancherster City.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>813</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>thumbsUp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>335</xmin>
+			<ymin>228</ymin>
+			<xmax>511</xmax>
+			<ymax>452</ymax>
+		</bndbox>
+	</object>
+</annotation>

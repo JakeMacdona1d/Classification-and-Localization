@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>portrait-of-a-man-showing-thumbs-up-TWEAB1.jpg</filename>
+	<path>D:\GitHub\Classification-and-Localization\thumbs\images\portrait-of-a-man-showing-thumbs-up-TWEAB1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>866</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>thumbsUp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>499</xmin>
+			<ymin>736</ymin>
+			<xmax>712</xmax>
+			<ymax>1108</ymax>
+		</bndbox>
+	</object>
+</annotation>

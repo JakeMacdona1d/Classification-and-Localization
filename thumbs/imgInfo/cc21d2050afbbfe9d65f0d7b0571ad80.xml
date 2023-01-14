@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>cc21d2050afbbfe9d65f0d7b0571ad80.jpg</filename>
+	<path>D:\GitHub\Classification-and-Localization\thumbs\images\cc21d2050afbbfe9d65f0d7b0571ad80.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>923</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>thumbsUp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>424</xmin>
+			<ymin>208</ymin>
+			<xmax>522</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>

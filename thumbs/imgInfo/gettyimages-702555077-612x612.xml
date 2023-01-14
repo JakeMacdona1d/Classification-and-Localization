@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>gettyimages-702555077-612x612.jpg</filename>
+	<path>D:\GitHub\Classification-and-Localization\thumbs\images\gettyimages-702555077-612x612.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>408</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>thumbsUp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>310</xmin>
+			<ymin>134</ymin>
+			<xmax>366</xmax>
+			<ymax>217</ymax>
+		</bndbox>
+	</object>
+</annotation>

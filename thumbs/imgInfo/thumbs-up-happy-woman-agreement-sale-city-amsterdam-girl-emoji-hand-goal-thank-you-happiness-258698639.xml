@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>thumbs-up-happy-woman-agreement-sale-city-amsterdam-girl-emoji-hand-goal-thank-you-happiness-258698639.jpg</filename>
+	<path>D:\GitHub\Classification-and-Localization\thumbs\images\thumbs-up-happy-woman-agreement-sale-city-amsterdam-girl-emoji-hand-goal-thank-you-happiness-258698639.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>534</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>thumbsUp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>398</xmin>
+			<ymin>172</ymin>
+			<xmax>545</xmax>
+			<ymax>495</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Pep-Guardiola-Man-City-F365-1.jpg</filename>
+	<path>D:\GitHub\Classification-and-Localization\thumbs\images\Pep-Guardiola-Man-City-F365-1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>thumbsUp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>954</xmin>
+			<ymin>139</ymin>
+			<xmax>1085</xmax>
+			<ymax>346</ymax>
+		</bndbox>
+	</object>
+</annotation>
