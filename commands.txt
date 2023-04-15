@@ -3,8 +3,18 @@ python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\trainin
 python generate_tfrecord.py -x D:\GitHub\Classification-and-Localization\training\images\test -l D:\GitHub\Classification-and-Localization\training\annotations\label_map.pbtxt -o D:\GitHub\Classification-and-Localization\training\annotations\test.record
 
 python model_main_tf2.py --model_dir=models\my_ssd_mobilenet_v2_fpnlite --pipeline_config_path=models\my_ssd_mobilenet_v2_fpnlite\pipeline.config
+// or possibly 
+python model_main_tf2.py --model_dir=models\resNet --pipeline_config_path=models\resNet\pipeline.config
+// but probs
+python model_main_tf2.py --model_dir=models\efficientDet4 --pipeline_config_path=models\efficientDet4\pipeline.config
+
+python model_main_tf2.py --model_dir=models\eDet3 --pipeline_config_path=models\eDet3\pipeline.config
+
+
 
 export:
-python .\exporter_main_v2.py --input_type image_tensor --pipeline_config_path .\models\my_ssd_mobilenet_v2_fpnlite\pipeline.config --trained_checkpoint_dir .\models\my_ssd_mobilenet_v2_fpnlite\ --output_directory .\exported-models\my_mobilenet_model
+python .\exporter_main_v2.py --input_type image_tensor --pipeline_config_path .\models\efficientDet4\pipeline.config --trained_checkpoint_dir .\models\efficientDet4\ --output_directory .\exported-models\personEfficientDet
 
 https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal
+
+faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8

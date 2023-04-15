@@ -16,9 +16,9 @@ tf.get_logger().setLevel('ERROR')           # Suppress TensorFlow logging (2)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help='Folder that the Saved Model is Located In',
-                    default='exported-models/my_mobilenet_model')
+                    default='exported-models/personEfficientDet')
 parser.add_argument('--labels', help='Where the Labelmap is Located',
-                    default='exported-models/my_mobilenet_model/saved_model/label_map.pbtxt')
+                    default='exported-models/personEfficientDet/saved_model/label_map.pbtxt')
 parser.add_argument('--image', help='Name of the single image to perform detection on',
                     default='images/test/IMG_2411thot.jpeg')
 parser.add_argument('--threshold', help='Minimum confidence threshold for displaying detected objects',
